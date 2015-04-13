@@ -1,3 +1,4 @@
+#!/bin/sh
 # You can find the latest Linux kernel source bundles here:
 #
 # http://kernel.org

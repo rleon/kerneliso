@@ -3,7 +3,7 @@
 if [ -z "$BASE_DIR" ]; then
 	# Standalone execution
 	BASE_DIR="`pwd`"
-	. $BASE_DIR/.config
+	. $BASE_DIR/config.sh
 fi
 
 # Enter the busybox directory regardless of the version

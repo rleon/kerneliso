@@ -5,7 +5,7 @@ if [ -z "$BASE_DIR" ]; then
 	BASE_DIR="`pwd`"
 fi
 
-. $BASE_DIR/.config
+. $BASE_DIR/config.sh
 
 # Grab everything after the last '/' character
 ARCHIVE_FILE=${KERNEL_SOURCE_URL##*/}

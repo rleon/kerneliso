@@ -3,7 +3,7 @@
 if [ -z "$BASE_DIR" ]; then
 	# Standalone execution
 	BASE_DIR="`pwd`"
-	. $BASE_DIR/.config
+	. $BASE_DIR/config.sh
 	rm -rf $OUT_DIR/minimal_linux_live.iso
 fi
 
