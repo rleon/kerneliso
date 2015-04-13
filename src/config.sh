@@ -14,6 +14,8 @@ BUSYBOX_SOURCE_URL=http://busybox.net/downloads/busybox-1.23.2.tar.bz2
 ########################################################################
 # DO NOT TOUCH THE FOLLOWING VARIABLES UNLES YOU KNOW WHAT YOU ARE DOING
 ########################################################################
+IMG_NAME="minimal_linux_live"
+
 WORK_DIR="${BASE_DIR}/work"
 SRC_DIR="${BASE_DIR}/source"
 
