@@ -3,7 +3,7 @@
 if [ -z "$BASE_DIR" ]; then
 	# Standalone execution
 	BASE_DIR="`pwd`"
-	. $BASE_DIR/.vars
+	. $BASE_DIR/.config
 fi
 
 cd $WORK_DIR
@@ -78,7 +78,6 @@ chmod +x init
 
 cp $BASE_DIR/*.sh src
 cp $BASE_DIR/.config src
-cp $BASE_DIR/.vars src
 chmod +r src/*.sh
 chmod +r src/.config
 

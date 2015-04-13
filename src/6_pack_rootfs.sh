@@ -3,7 +3,7 @@
 if [ -z "$BASE_DIR" ]; then
 	# Standalone execution
 	BASE_DIR="`pwd`"
-	. $BASE_DIR/.vars
+	. $BASE_DIR/.config
 	rm -rf $OUT_DIR/rootfs.cpio.gz
 fi
 
