@@ -1,14 +1,4 @@
-Minimal Linux Live
+Kernel ISO Build Tool
 =======
 
-Website:  http://minimal.linux-bg.org
-
-Tutorial: http://minimal.linux-bg.org/the_dao_of_minimal_linux_live.txt
-
-===   ===   ===
-
-Other projects based on "Minimal Linux Live":
-
-* https://github.com/robocoder-db/busybox-linux
-
-* https://github.com/mhiramat/boot2minc
+This tool is an extended fork of Ivan Davidov's [minimal linux live build](http://minimal.linux-bg.org).
